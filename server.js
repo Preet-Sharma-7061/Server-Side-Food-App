@@ -11,7 +11,7 @@ const AddressRouter = require('./Routes/AddressRoutes')
 
 app.use(bodyparser.json())
 app.use(cors({
-    origin: 'https://client-side-food-app.vercel.app',
+    origin: 'https://client-side-food-i7z73kwvs-pritam-coders-projects.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     credentials: true,
   }));
